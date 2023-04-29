@@ -70,27 +70,27 @@
     </div>
     <div class="to-top">↑</div>
     <div class="gb2-site" >
-      	<a id="gb2big5" ><span>繁</span></a>
+      	<a id="gb2big5" ><span></span></a>
       </div>
     <script src="style/js/GeeYo.js"></script>
     <script src="style/js/gb2big5.js"></script>
 
 <script type="text/javascript">
     function show_site_runtime(){
-	window.setTimeout("show_site_runtime()",1000); // 每秒运行一次函数
-	X=new Date("04/10/2019 00:00:00"); //在这里修改你的建站时间
+	window.setTimeout("show_site_runtime()",1000); 
+	X=new Date("04/10/2019 00:00:00"); 
 	Y=new Date();
-	T=(Y.getTime()-X.getTime()); // 获取当前时间与指定时间之间的时间间隔（ms）	
+	T=(Y.getTime()-X.getTime());
 	i=24*60*60*1000;
 	d=T/i;
-	D=Math.floor(d); // 计算天数并向下取整
+	D=Math.floor(d); 
 	h=(d-D)*24;
-	H=Math.floor(h); // 计算剩余不足一天的小时数并向下取整
+	H=Math.floor(h); 
 	m=(h-H)*60;
-	M=Math.floor(m); // 计算剩余不足一小时的分钟数并向下取整
+	M=Math.floor(m);
 	s=(m-M)*60;
-	S=Math.floor(s); // 计算剩余不足一分钟的秒数并向下取整
-	site_runtime.innerHTML="现在是："+ Y+ "<br>" +"网站已平稳运行："+D + " 天 " + H + " 小时 " + M + " 分 " + S + " 秒 ";
+	S=Math.floor(s); 
+	site_runtime.innerHTML="Now："+ Y+ "<br>" +"Website is up and running smoothly："+D + " day " + H + " hour " + M + " min " + S + " sec ";
     }
 	show_site_runtime();
 </script>
