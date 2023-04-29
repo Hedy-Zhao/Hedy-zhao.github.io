@@ -4,8 +4,8 @@
   "author": "SimonMa <simon@tomotoes.com>",
   "license": "LGPI-3.0",
   "homepage": "http://HedyZhao.com",
-  "repository": "https://github.com/Tomotoes/HomePage",
-  "bugs": "https://github.com/Tomotoes/HomePage/issues",
+  "repository": "https://github.com/Hedy-Zhao/Hedy-zhao.github.io",
+  "bugs": "https://github.com/Hedy-Zhao/Hedy-zhao.github.io/issues",
   "description": "Tomotoes-HomePage",
   "scripts": {
     "predev": "gulp build",
